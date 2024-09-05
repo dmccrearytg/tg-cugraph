@@ -10,6 +10,7 @@ edit_uri: edit/master/docs/
 nav:
   - Home: index.md
   - About: about.md
+  - Slides: slides.md
   - Concepts:
     - Introduction: concepts/index.md
     - Architecture: concepts/architecture.md
