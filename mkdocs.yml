@@ -11,8 +11,8 @@ nav:
   - Home: index.md
   - About: about.md
   - Concepts:
-    - Introduction: index.md
-    - Architecture: architecture.md
+    - Introduction: concepts/index.md
+    - Architecture: concepts/architecture.md
   - Glossary: glossary.md
   - References: references.md
   - Contact: contact.md
