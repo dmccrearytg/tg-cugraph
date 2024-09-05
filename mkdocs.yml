@@ -10,6 +10,9 @@ edit_uri: edit/master/docs/
 nav:
   - Home: index.md
   - About: about.md
+  - Concepts:
+    - Introduction: index.md
+    - Architecture: architecture.md
   - Glossary: glossary.md
   - References: references.md
   - Contact: contact.md
