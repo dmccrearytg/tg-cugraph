@@ -341,6 +341,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#nccl" class="md-nav__link">
+    <span class="md-ellipsis">
+      NCCL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagerank" class="md-nav__link">
+    <span class="md-ellipsis">
+      PageRank
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pytorch-geometic" class="md-nav__link">
+    <span class="md-ellipsis">
+      PyTorch Geometic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#rapids" class="md-nav__link">
     <span class="md-ellipsis">
       RAPIDS
@@ -373,6 +400,21 @@
       User Defined Function
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="User Defined Function">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wholegraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      WholeGraph
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -496,6 +538,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#nccl" class="md-nav__link">
+    <span class="md-ellipsis">
+      NCCL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagerank" class="md-nav__link">
+    <span class="md-ellipsis">
+      PageRank
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pytorch-geometic" class="md-nav__link">
+    <span class="md-ellipsis">
+      PyTorch Geometic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#rapids" class="md-nav__link">
     <span class="md-ellipsis">
       RAPIDS
@@ -528,6 +597,21 @@
       User Defined Function
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="User Defined Function">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wholegraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      WholeGraph
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -566,13 +650,29 @@ on NVIDIA GPUs.</p>
 <p>You can think of CuGraph as a version of NVIDIA CUDA C libraries but focused on working on graph data.</p>
 <h2 id="edge-classification">Edge Classification</h2>
 <h2 id="link-prediction">Link Prediction</h2>
+<p>The process of using machine learning to predict a new or missing link from an existing graph.</p>
+<p>Link prediction is of the key use cases for GNNs,  Link prediction is also used in many
+areas of process mining including predicting social network relationships, customer purchases
+and recommendations.</p>
+<h2 id="nccl">NCCL</h2>
+<p>NCCL (pronounced "nickel") is an ID assigned to </p>
+<h2 id="pagerank">PageRank</h2>
+<h2 id="pytorch-geometic">PyTorch Geometic</h2>
 <h2 id="rapids">RAPIDS</h2>
+<p>RAPIDS is NVIDIA developed Open Source software packatge designed to enable data scientists staff to more easily use NVIDIA GPUs.</p>
+<p>RAPIDS has connectors that work with popular Python data science libraries such as Pandas, Scikit-Learn and NetworkX.</p>
+<p><a href="https://rapids.ai/">RAPIDS website</a></p>
 <h2 id="sampling">Sampling</h2>
 <h2 id="seeds">Seeds</h2>
 <p>Vertex seed
 Edge Seed</p>
 <h2 id="user-defined-function">User Defined Function</h2>
-<p>A function</p>
+<p>A function written by a specific user that adds new functionality to TigerGraph.  Unlike GSQL functions, User Defined Functions (UDFs) must be written in C/C++.</p>
+<p>UDFs are the method that TigerGraph calls the CuGraph interfaces.</p>
+<h3 id="wholegraph">WholeGraph</h3>
+<p>WholeGraph is a software system that allows users to partion a large group on multiple GPUs.</p>
+<p>WholeGraph was developed to help train large-scale Graph Neural Networks(GNN). WholeGraph provides underlying storage structure called WholeMemory. WholeMemory is a Tensor like storage and provide multi-GPU support. It is optimized for NVLink systems like DGX A100 servers. By working together with cuGraph, cuGraph-Ops, cuGraph-DGL, cuGraph-PyG, and upstream DGL and PyG, it will be easy to build GNN applications.</p>
+<p><a href="https://github.com/rapidsai/wholegraph">WholeGraph GitHub Repo</a></p>
 <h2 id="worker">Worker</h2>
 
 
