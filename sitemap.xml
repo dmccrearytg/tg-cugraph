@@ -26,7 +26,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dmccrearytg.github.io/tg-cugraph/slides/</loc>
+         <lastmod>2024-09-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dmccrearytg.github.io/tg-cugraph/concepts/</loc>
+         <lastmod>2024-09-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccrearytg.github.io/tg-cugraph/concepts/architecture/</loc>
          <lastmod>2024-09-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
